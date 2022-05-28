@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Desmond Ayettey DesignSystem</title>
+        <link rel="icon" type="" href="../img/favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		  <a href="../index.html" class="logo"><img alt="Desmond Ayettey" class="mb-1 slogo" src="../img/favicon.png"></a>Desmond Ayettey
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="../components/Button.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../components/Footer.html">Footer</a>
+                </li>
+                <li>
+                    <a href="../components/Navigation.html">Navigation</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse.show list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/Home.html">HomePage</a>
+                </li>
+                <li>
+                    <a href="#">ResourcePage</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+
+          <h1>Resource Page</h1>
+          <p>Below are recent work page patterns for desktop, tablet, and mobile. These page patterns are arranged using
+            a
+            12-column Bootstrap grid.</p>
+
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desktopLayout" role="tab" aria-controls="home" aria-selected="true">Desktop Layout</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#desktopGrid" role="tab" aria-controls="profile" aria-selected="false">Desktop Grid</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tabletLayout" role="tab" aria-controls="contact" aria-selected="false">Tablet Layout</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="#tabletGrid" role="tab" aria-controls="home" aria-selected="true">Tablet Grid</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#mobileLayout" role="tab" aria-controls="profile" aria-selected="false">Mobile Layout</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#mobileGrid" role="tab" aria-controls="contact" aria-selected="false">Mobile Grid</a>
+            </li>
+          </ul>
+          <div class="tab-content layouts-example" id="myTabContent">
+            <div class="tab-pane fade active show" id="desktopLayout" role="tabpanel" aria-labelledby="home-tab"><img src="../img/Resource%20desktop%20Layout.png"></div>
+            <div class="tab-pane fade" id="desktopGrid" role="tabpanel" aria-labelledby="profile-tab"><img src="../img/Resource%20desktop%20Grid.png"></div>
+            <div class="tab-pane fade" id="tabletLayout" role="tabpanel" aria-labelledby="contact-tab"><img src="../img/resource%20tablet%20layout%20grind.png" alt=""></div>
+            <div class="tab-pane fade" id="tabletGrid" role="tabpanel" aria-labelledby="home-tab"><img src="../img/resource%20tablet%20grid.png" alt=""></div>
+            <div class="tab-pane fade" id="mobileLayout" role="tabpanel" aria-labelledby="profile-tab"><img src="../img/resource%20layout%20mobile.png" alt=""></div>
+            <div class="tab-pane fade" id="mobileGrid" role="tabpanel" aria-labelledby="contact-tab"><img src="../img/mobile%20grid.png" alt=""></div>
+          </div>
+
+              
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
